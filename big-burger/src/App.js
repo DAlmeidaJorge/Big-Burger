@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Herosection from './Components/Herosection/Herosection';
 import Carousel from './Components/Carousel/Carousel';
 import LocationSection from './Components/LocationSection/LocationSection';
-
+import Socialsection from './Components/Socialsection/Socialsection';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       < Herosection />
       < Carousel />
       < LocationSection />
-
+      < Socialsection />
 
     </div>
   );

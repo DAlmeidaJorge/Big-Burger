@@ -1,0 +1,64 @@
+.social-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .instagram-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .instagram-icon {
+    font-size: 88px;
+    
+  }
+  
+  .instagram-heading {
+    font-family: monospace;
+    margin-left: -5px;
+    font-size:35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .picture-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .picture-row img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .follow-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  
+
+  .button-instagram-icon{
+   
+    
+    font-size:16px;
+    margin-right: 30px;
+    
+    
+  }
+
+  .button-instagram-icon:hover{
+    transform: scale(1.7);
+  }
