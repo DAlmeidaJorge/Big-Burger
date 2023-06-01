@@ -1,59 +1,92 @@
-.footer {
-    background-color: yellow;
-    padding: 60px;
-    margin-top:65px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .follow-us {
-    display: flex;
-    flex-direction: column;
-    margin-left: 200px;
-  }
-  
-  .follow-heading{
-   font-size: 25px;
-   font-weight: 600;
-   margin-bottom:80px;
-   font-family:monospace;
-   text-transform: uppercase;
-  }
+.footer-container {
+  background-color: yellow;
+  padding: 10px;
+  margin-top: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-  .social-icons {
-    display: flex;
-    gap: 10px;
-    margin-top: 10px;
-  }
-  
-  .social-icon {
-    font-size: 24px;
-    margin-top:-25px;
-  }
-  
-  .foods-allergens {
-    text-align: right;
-  }
-  
-  .foods-heading {
-    font-family: monospace;
-    margin-right: 600px;
-    margin-bottom: 420px;
-    font-weight: 600;
-    font-size: 25px;
-    text-transform: uppercase;
-  
-  }
-  
-  .info-heading {
-    font-family: monospace;
-    font-size: 16px;
-    margin-top: -300px;
-    margin-right:200px;
-  }
-  
-  u {
-    text-decoration: underline;
-  }
-  
+.follow-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.follow-heading {
+  font-size: 35px;
+  padding-bottom: 60px;
+  font-weight: 600;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.social-icons {
+  display: flex;
+  transform: scale(2);
+  gap: 10px;
+  padding-bottom: 80px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color:black;
+}
+
+.foods-allergens {
+  text-align: right;
+}
+
+.foods-heading {
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 35px;
+  margin-right: 700px;
+  text-transform: uppercase;
+}
+
+.info-heading {
+  font-family: monospace;
+  font-size: 16px;
+  align-self: flex-start;
+  margin-right:335px;
+  margin-top: 10px;
+}
+
+u {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+.burger-para {
+  display: flex;
+  font-size: 18px;
+  padding-top: -40px;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 10px;
+  padding-right: -20px;
+}
+
+.policy-container {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+.footer-link {
+  margin-top: -50px;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
