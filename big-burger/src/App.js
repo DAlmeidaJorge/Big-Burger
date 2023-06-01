@@ -5,6 +5,8 @@ import Herosection from './Components/Herosection/Herosection';
 import Carousel from './Components/Carousel/Carousel';
 import LocationSection from './Components/LocationSection/LocationSection';
 import Socialsection from './Components/Socialsection/Socialsection';
+import Footer from './Components/Footer/Footer';
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       < Carousel />
       < LocationSection />
       < Socialsection />
+      < Footer />
 
     </div>
   );
