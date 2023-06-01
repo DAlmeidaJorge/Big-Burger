@@ -2,7 +2,7 @@
 
 .carousel-pictures-container{
     display: flex;
-    margin-top: 75px;
+    margin-top: 25px;
     margin-left: 20px;
     max-width: 100%;
     gap:70px;
@@ -31,6 +31,10 @@
     height: 25px;
     width: 30px;
     
+}
+.next-latest-button:hover{
+  opacity:60%;
+  transform: scale(1.1);
 }
 
 .next-icon {
