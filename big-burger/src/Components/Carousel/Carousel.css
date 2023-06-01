@@ -2,15 +2,15 @@
 
 .carousel-pictures-container{
     display: flex;
-    flex-direction: row;
-    margin-top: 110px;
-    margin-left: 120px;
+    margin-top: 75px;
+    margin-left: 20px;
     max-width: 100%;
     gap:70px;
     position: relative;
     padding-top: 70px;
-    
+      
 }
+
 
 
 .button-container{
@@ -18,7 +18,7 @@
   top: 0;
   right: 0;
   margin-top: 40px;
-  margin-right: 20px;
+  margin-right: 30px;
 
 }
 
@@ -39,3 +39,39 @@
    
     
   }
+
+  .latest-heading{
+    font-family: monospace;
+    margin-left: 140px;
+    font-size:15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+  .promotions-heading{
+    font-family: monospace;
+    margin-left: 130px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .menu-heading{
+    font-family: monospace;
+    margin-left: 140px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+
+  .latest-picture:hover,
+.promotions-picture:hover,
+.menu-picture:hover {
+  opacity: 0.7;
+}

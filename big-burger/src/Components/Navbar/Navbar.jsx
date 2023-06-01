@@ -7,14 +7,12 @@ const Navbar = () => {
     <div className="logo">
     <img src="https://static.vecteezy.com/system/resources/previews/017/503/957/original/hot-burgers-logo-illustration-modern-burgers-emblem-art-free-vector.jpg" alt="Burger-Logo" />
     </div>
-    <div className="nav-links">
-      <a href="">What to eat today?</a>
-     
-      <a href="">Who we are?</a>
-
-      <a href="">Where are we?</a>
-      <a href="">Contacts</a>
-    </div>
+    <ul className="nav-links">
+        <li>What to eat today?</li>
+        <li>Who we are?</li>
+        <li>Where are we?</li>
+        <li>Contacts</li>
+      </ul>
       
     </div>
     
