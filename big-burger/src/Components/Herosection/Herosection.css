@@ -37,6 +37,7 @@
 
 .hero-section-container:hover{
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .hero-section-text {

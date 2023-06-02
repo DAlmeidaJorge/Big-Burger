@@ -12,6 +12,7 @@
   
   .instagram-icon {
     font-size: 88px;
+    color:black;
     
   }
   
@@ -37,6 +38,9 @@
     object-fit: cover;
   }
   
+  .picture-row img:hover{
+    opacity:60%;
+  }
   .follow-button {
     background-color: black;
     color: white;

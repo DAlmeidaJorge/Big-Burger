@@ -51,6 +51,7 @@
   .nav-links li:hover {
     text-decoration-color: rgb(8, 8, 8);
     border-bottom: 4px solid rgb(21, 21, 21);
+    cursor: pointer;
   }
 
 

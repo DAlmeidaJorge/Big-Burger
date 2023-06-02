@@ -6,7 +6,9 @@ const Socialsection = () => {
   return (
     <div className="social-section">
       <div className="instagram-section">
+      <a href="https://www.instagram.com/">
         <FaInstagram className="instagram-icon" />
+        </a>
         <h2 className="instagram-heading">Big & Instagram</h2>
       </div>
       <div className="picture-row">

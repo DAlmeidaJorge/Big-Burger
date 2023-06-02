@@ -33,6 +33,10 @@
   color:black;
 }
 
+.social-icon:hover{
+  transform: scale(2);
+}
+
 .foods-allergens {
   text-align: right;
 }
@@ -57,7 +61,6 @@ u {
   text-decoration: underline;
   cursor: pointer;
 }
-
 
 
 .burger-para {
@@ -88,5 +91,6 @@ u {
 
 .footer-link:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
