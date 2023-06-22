@@ -1,0 +1,222 @@
+.eat-picture-row {
+    
+    display: flex;
+    margin-top: 180px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+  }
+  
+  
+.picture-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+
+  .eat-picture-row img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .sides-quote-container{
+   display: flex;
+   margin-top: 50px;
+   margin-left: 224px;
+   background-color: yellow;
+   width: 1075px;
+   height: 69px;
+   border:none;
+  }
+
+  .sides-quote{
+    font-size: 40px;
+    margin-left:20px;
+    margin-top:11px;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .sides-heading-container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .first-sides-heading{
+    font-size:20px;
+    display: flex;
+    margin-left: 225px;
+    text-align: center;
+    
+    font-family: monospace;
+    font-weight: 600;
+   
+  }
+
+.second-sides-heading{
+    font-size: 20px;
+  display: flex;
+  margin-left: 225px;
+  white-space: pre-line;
+  
+  font-family: monospace;
+  font-weight: 100;
+}
+
+.eat-section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.first-section-container,
+.second-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.first-section-container img {
+    display: flex;
+
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+.first-section-container img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+  
+.second-section-container img{
+width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+  
+.second-section-container img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+  
+  .fries-title{
+    display:flex;
+    background-color: yellow;
+    width: 350px;
+    margin:0;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .onions-title{
+    display:flex;
+    background-color: yellow;
+    width: 350px;
+    margin:0;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .coleslaw-title{
+    display:flex;
+    background-color: yellow;
+    width: 350px;
+    margin:0;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .garlic-title{
+    display:flex;
+    background-color: yellow;
+    width: 350px;
+    margin:0;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .nachos-title{
+    display:flex;
+    background-color: yellow;
+    width: 350px;
+    margin:0;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .sticks-title{
+    display:flex;
+    background-color: yellow;
+    width: 350px;
+    margin:0;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .big-menu{
+    display: flex;
+    margin-left: 220px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: yellow 15px solid;
+    border-bottom: yellow 15px solid;
+    width: 1082px;
+  }
+
+  .menu-title{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .second-menu-title{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 100;
+ 
+  }
