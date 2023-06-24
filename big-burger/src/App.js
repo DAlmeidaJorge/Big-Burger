@@ -8,6 +8,7 @@ import Socialsection from './Components/Socialsection/Socialsection';
 import Footer from './Components/Footer/Footer';
 import Homepage from './Pages/Homepage';
 import Eatsection from './Pages/Eatsection';
+import Whosection from './Pages/Whosection';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
          <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/Eatsection" element={<Eatsection />} />
+          <Route path="/Whosection" element ={<Whosection />} />
         </Routes> 
         <Footer />
       </div>

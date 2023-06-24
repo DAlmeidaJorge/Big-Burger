@@ -15,7 +15,9 @@ const Navbar = () => {
     <li>
       <Link to="/Eatsection">What to eat today?</Link>
       </li>
-        <li>Who we are?</li>
+        <li>
+          <Link to="/Whosection">Who we are?</Link>
+        </li>
         <li>Where are we?</li>
         <li>Contacts</li>
       </ul>
