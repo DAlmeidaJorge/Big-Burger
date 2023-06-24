@@ -6,7 +6,10 @@ const Navbar = () => {
   return (
     <div className="navbar">
     <div className="logo">
-    <img src="https://static.vecteezy.com/system/resources/previews/017/503/957/original/hot-burgers-logo-illustration-modern-burgers-emblem-art-free-vector.jpg" alt="Burger-Logo" />
+    <a href="/">
+          <img src="https://static.vecteezy.com/system/resources/previews/017/503/957/original/hot-burgers-logo-illustration-modern-burgers-emblem-art-free-vector.jpg" alt="Burger-Logo" />
+          
+        </a>
     </div>
     <ul className="nav-links">
     <li>
