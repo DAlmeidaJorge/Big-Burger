@@ -33,11 +33,23 @@ margin-left: 1000px;
     flex-direction: column;
     margin-left: 225px;
     margin-top:20px;
-    
+    opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
    
     
   }
 
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
   .first-who{
     background-color: yellow;
@@ -123,16 +135,19 @@ flex-direction: column;
   .yellow-picture {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
+    width: 50%;
+    height: 400px;
+    margin-top: -450px;
+    margin-left: 750px;
     
    
   }
   
   .yellow-picture img {
-    width: 650px;
-    height: 450px;
-    object-fit: cover;
-    margin-top: -400px;
-    margin-right: 50px;
+    width: 100%; /* Adjust the image width as needed */
+  height: 100%; /* Adjust the image height as needed */
+  object-fit: cover; /* Adjust the object-fit property as needed */
   }
   
   .yellow-picture img:hover{

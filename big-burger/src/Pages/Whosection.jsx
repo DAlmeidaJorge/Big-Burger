@@ -1,4 +1,6 @@
 import Navbar from '../Components/Navbar/Navbar';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import './Whosection.css';
 
@@ -34,8 +36,19 @@ const Whosection = () => {
      prepared fresh to order with basic ingredients inspired by the burger world. Our ingredients are always fresh and natural, 
      just like the Mediterranean diet.</p></h1>
      <div className='yellow-picture'>
-     <img src="https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,h_450,q_auto,w_710/f_auto/best-nyc-burger-phpm4xlPf" alt="yellow-burger" />
-     </div>
+  <Carousel autoPlay infiniteLoop showStatus={false} showThumbs={false}>
+    <div>
+      <img src='https://media.istockphoto.com/id/1188412964/photo/hamburger-with-cheese-and-french-fries.jpg?b=1&s=612x612&w=0&k=20&c=_JT2iitrsfuPYOmYHO336VFWeximXvauz6tRG4-7OVI=' alt='Slider Image 1' />
+    </div>
+    <div>
+      <img src='https://media.istockphoto.com/id/1309352410/photo/cheeseburger-with-tomato-and-lettuce-on-wooden-board.jpg?b=1&s=612x612&w=0&k=20&c=qD01FkeyMFSpGVvle2OXoQNYJlbgsDPk2L5_GeHe8RU=' alt='Slider Image 2' />
+    </div>
+    <div>
+      <img src='https://cdn.pixabay.com/photo/2023/04/25/23/13/hamburger-7951202_1280.jpg' alt='Slider Image 3' />
+    </div>
+  
+  </Carousel>
+</div>
     </div>
     <div className='values'>
         <div className='values-container'>
