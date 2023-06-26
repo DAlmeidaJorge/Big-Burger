@@ -3,6 +3,7 @@
     height: 450px;
     width: 100%;
     object-fit: cover;
+    filter: brightness(0.6);
     
 }
 
@@ -16,6 +17,7 @@
 
 .who-title{
 display: flex;
+z-index: 999;
 flex-direction: column;
 margin-left: 1000px;
     font-size:50px;
@@ -127,10 +129,6 @@ flex-direction: column;
   }
 
   
-.ingredients-text:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
 
   .yellow-picture {
     display: flex;
@@ -145,21 +143,21 @@ flex-direction: column;
   }
   
   .yellow-picture img {
-    width: 100%; /* Adjust the image width as needed */
-  height: 100%; /* Adjust the image height as needed */
-  object-fit: cover; /* Adjust the object-fit property as needed */
+    width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
   }
   
-  .yellow-picture img:hover{
-    opacity:60%;
-  }
+  
 
   .values {
     display: flex;
+    
     border-top: 20px solid yellow;
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 50px;
+    
   }
   
   .values-title{
