@@ -1,0 +1,30 @@
+.Where-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding-top: 150px; /* Adjust the padding as needed for the heading */
+  }
+  
+  .Where-title {
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 35px;
+    width: 25%;
+    justify-content: center;
+    font-weight:600;
+    text-transform: uppercase;
+    font-family: monospace;
+    background-color: yellow; /* Adjust the margin as needed */
+  }
+  
+  .Map-container {
+    flex-grow: 1;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 2px;
+    margin-left: 8px; /* Adjust the margin as needed */
+  }
+  

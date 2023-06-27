@@ -18,7 +18,9 @@ const Navbar = () => {
         <li>
           <Link to="/Whosection">Who we are?</Link>
         </li>
-        <li>Where are we?</li>
+        <li>
+          <Link to="/Wheresection">Where we are?</Link>
+          </li>
         <li>Contacts</li>
       </ul>
       
