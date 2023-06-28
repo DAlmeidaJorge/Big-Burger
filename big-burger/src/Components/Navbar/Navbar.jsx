@@ -21,7 +21,9 @@ const Navbar = () => {
         <li>
           <Link to="/Wheresection">Where we are?</Link>
           </li>
-        <li>Contacts</li>
+        <li>
+          <Link to="/Contactsection">Contacts</Link>
+          </li>
       </ul>
       
     </div>

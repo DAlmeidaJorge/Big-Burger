@@ -1,0 +1,102 @@
+.contact-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 55px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .work-opinion-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .work-section,
+  .opinion-section {
+    position: relative;
+    margin: 0 100px
+  }
+
+.work-section:hover{
+    transform: scale(1.2);
+}
+
+.opinion-section:hover{
+    transform:scale(1.2);
+}
+  
+  .section-image {
+    width: 400px; /* Adjust the image size as needed */
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .section-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and transparency */
+  }
+  
+  .section-overlay h1 {
+    margin-bottom: 10px;
+  }
+  
+  .section-overlay a {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+  }
+  
+  .work-heading {
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 35px;
+    color: white;
+    margin-top: -60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .cv-heading {
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 25px;
+   background-color: yellow;
+   border-radius:5px;
+   
+    
+  }
+  
+  .email-heading{
+     text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 23px;
+   background-color: yellow;
+   border-radius:5px;
+  }
+
+  .opinion-heading{
+    
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 35px;
+    color: white;
+    margin-top: -60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }

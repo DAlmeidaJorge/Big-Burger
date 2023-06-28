@@ -10,6 +10,7 @@ import Homepage from './Pages/Homepage';
 import Eatsection from './Pages/Eatsection';
 import Whosection from './Pages/Whosection';
 import Wheresection from './Pages/Wheresection';
+import Contactsection from './Pages/Contactsection';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/Eatsection" element={<Eatsection />} />
           <Route path="/Whosection" element ={<Whosection />} />
           <Route path="/Wheresection" element={<Wheresection />} />
+          <Route path="/Contactsection" element={<Contactsection />} />
         </Routes> 
         <Footer />
       </div>

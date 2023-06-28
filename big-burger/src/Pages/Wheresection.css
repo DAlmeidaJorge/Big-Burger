@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     min-height: 100vh;
-    padding-top: 150px; /* Adjust the padding as needed for the heading */
+    padding-top: 150px; 
   }
   
   .Where-title {
@@ -16,7 +16,7 @@
     font-weight:600;
     text-transform: uppercase;
     font-family: monospace;
-    background-color: yellow; /* Adjust the margin as needed */
+    background-color: yellow; 
   }
   
   .Map-container {
@@ -25,6 +25,6 @@
     height: 200px;
     width: 100%;
     margin-top: 2px;
-    margin-left: 8px; /* Adjust the margin as needed */
+    margin-left: 8px; 
   }
   
