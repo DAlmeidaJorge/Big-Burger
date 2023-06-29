@@ -10,7 +10,7 @@ const Wheresection = () => {
           src={`https://www.mapquestapi.com/staticmap/v5/map?key=TTjlcNyhRNfFfco2YKK8WlYVBjApKjtM&center=Lisbon,Portugal&size=800,400&type=map&zoom=13`}
           alt="Map"
           height={693}
-          width={1600}
+          width={1515}
         />
       </div>
     </div>

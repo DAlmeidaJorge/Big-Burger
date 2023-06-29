@@ -11,7 +11,7 @@ const Contactsection = () => {
           <div className='section-overlay'>
             <h1 className='work-heading'>Work with us</h1>
             <h1 className='cv-heading'>
-              <a href='/contact'>Send us your CV</a>
+              <a href='/Contactform'>Send us your CV</a>
             </h1>
           </div>
         </div>
@@ -20,7 +20,7 @@ const Contactsection = () => {
           <div className='section-overlay'>
             <h1 className='opinion-heading'>Send us your opinion</h1>
             <h1 className='email-heading'>
-              <a href='/contact'>Reach us at group@bigburger.com</a>
+              <a href='/Contactform'>Reach us at group@bigburger.com</a>
             </h1>
           </div>
         </div>
