@@ -6,13 +6,47 @@ const Eatsection = () => {
   return (
     <div>
       <Navbar />
-      <div className="eat-picture-row">
-          <img src="https://img.freepik.com/free-photo/hands-holding-perfect-burger-yellow-background_23-2148258495.jpg?w=900&t=st=1687379844~exp=1687380444~hmac=4884473cc3a5d98f37950a45c431bb3aaa738b89dfba3b3d673c21dc80f6670b" alt="burger1" />
-         <img src="https://images.unsplash.com/photo-1588258127399-549e8f09f904?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="burger2" />
-          <img src="https://img.freepik.com/free-photo/hands-holding-burger-red-background_23-2148258478.jpg?w=900&t=st=1687379967~exp=1687380567~hmac=9d10dfd1e24b3da104b01793beb696729bde1fe7a8e32fa7ac5a299365b6b8e6" alt="burger3" />
-          
-        
+      <div className='burgers-quote-container'>
+        <h1 className='burger-quote'>Burgers</h1>
       </div>
+      <div className='burgers-heading-container'>
+        <h1 className='first-burgers-heading'>Our signature burgers!</h1>
+        <h1 className='second-sides-heading'>Try out the most delicious burgers in the world!</h1>
+      </div>
+      <div className='burger-section-container'>
+        <div className='first-burger-container'>
+          <div className="burger-picture-container">
+            <img src="https://cdn1.vitalchoice.com/wcsstore/VitalChoice/images/catalog/FSB5_1932_Delux_Salmon_Burger_5oz_BEAUTYx.jpg" alt="salmon-burger" />
+            <h1 className='salmon-title'>Deluxe Salmon Burger</h1>
+          </div>
+
+          <div className="burger-picture-container">
+            <img src="https://sallysbakingaddiction.com/wp-content/uploads/2018/07/best-black-bean-burgers-2.jpg" alt="bean-burger" />
+            <h1 className='bean-title'>Black Bean Burger</h1>
+          </div>
+
+          <div className="burger-picture-container">
+            <img src="https://www.eatingwell.com/thmb/Clm50Llj-uQGfbLUGnevTY0mzWU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6683924-cab8a11ae8c24c50b48aae8ed95049e6.jpg" alt="veggie" />
+            <h1 className='veggie-title'>Veggie Burger</h1>
+          </div>
+        </div>
+
+        <div className='second-burger-container'>
+          <div className="burger-picture-container">
+            <img src="https://cdn.loveandlemons.com/wp-content/uploads/2019/06/portabello-mushroom-burger-recipe.jpg" alt="mushroom-burger" />
+            <h1 className='mushroom-title'>Portobello Mushroom Burger</h1>
+          </div>
+
+          <div className="burger-picture-container">
+            <img src="https://s23209.pcdn.co/wp-content/uploads/2022/07/220602_DD_The-Best-Ever-Cheeseburger_267-500x500.jpg" alt="cheeseburger" />
+            <h1 className='cheese-title'>Premium Cheeseburger</h1>
+          </div>
+
+          <div className="burger-picture-container">
+            <img src="https://www.killingthyme.net/wp-content/uploads/2021/11/best-turkey-burger-recipe-5.jpg" alt="turkey" />
+            <h1 className='turkey-title'>Famous Turkey Burger</h1>
+          </div>
+        </div>
 
       <div className='sides-quote-container'>
         <h1 className='sides-quote'>Sides</h1>
@@ -60,6 +94,7 @@ const Eatsection = () => {
         <h1 className='menu-title'>Your Big Menu includes:</h1>
         <h1 className='second-menu-title'>Burger + Fries or Coleslaw + Soda 40CL or Water</h1>
       </div>
+    </div>
     </div>
   );
 };

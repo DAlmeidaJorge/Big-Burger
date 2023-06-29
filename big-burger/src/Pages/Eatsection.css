@@ -1,12 +1,11 @@
-.eat-picture-row {
-    
-    display: flex;
-    margin-top: 180px;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    
-  }
+.burger-picture-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
   
   
 .picture-container {
@@ -18,11 +17,18 @@
   }
 
 
-  .eat-picture-row img {
-    width: 350px;
-    height: 250px;
-    object-fit: cover;
+  .burgers-quote-container{
+    display: flex;
+   margin-top: 200px;
+   margin-left: 224px;
+   background-color: yellow;
+   width: 1075px;
+   height: 69px;
+   border:none;
   }
+
+
+
 
   .sides-quote-container{
    display: flex;
@@ -33,6 +39,23 @@
    height: 69px;
    border:none;
   }
+
+
+
+.burger-quote{
+  font-size: 40px;
+  margin-left:20px;
+  margin-top:11px;
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: 600;
+  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
 
   .sides-quote{
     font-size: 40px;
@@ -46,10 +69,32 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
+
+  .burger-heading-container{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
   .sides-heading-container{
     display: flex;
     flex-direction: column;
     
+  }
+
+
+  .first-burgers-heading{
+    font-size:20px;
+    font-size:20px;
+    display: flex;
+    margin-left: 225px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+
+
   }
 
   .first-sides-heading{
@@ -57,11 +102,24 @@
     display: flex;
     margin-left: 225px;
     text-align: center;
-    
+    text-transform: uppercase;
     font-family: monospace;
     font-weight: 600;
    
   }
+
+.second-burger-heading{
+  font-size: 20px;
+  display: flex;
+ margin-left: 225px; 
+  white-space: pre-line;
+  
+  font-family: monospace;
+  font-weight: 100;
+
+}
+
+
 
 .second-sides-heading{
     font-size: 20px;
@@ -73,6 +131,16 @@
   font-weight: 100;
 }
 
+.burger-section-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+
+}
+
+
 .eat-section-container{
     display: flex;
     flex-direction: column;
@@ -81,6 +149,18 @@
     margin-bottom: 20px;
 }
 
+.first-burger-container,
+.second-burger-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+
+
 .first-section-container,
 .second-section-container {
   display: flex;
@@ -88,6 +168,21 @@
   align-items: center;
   gap: 20px;
 }
+
+.first-burger-container img {
+  display: flex;
+
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+
+}
+
+.first-burger-container img:hover{
+  transform: scale(1.1);
+    cursor: pointer;
+}
+
 
 .first-section-container img {
     display: flex;
@@ -99,6 +194,19 @@
 
 .first-section-container img:hover{
     transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.second-burger-container img{
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+
+}
+
+.second-burger-container img:hover{
+  transform: scale(1.1);
     cursor: pointer;
 }
 
@@ -114,6 +222,26 @@ width: 350px;
     cursor: pointer;
 }
   
+.salmon-title,
+.bean-title,
+.veggie-title,
+.mushroom-title,
+.cheese-title,
+.turkey-title {
+  display: flex;
+  background-color: yellow;
+  width: 350px;
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
   .fries-title{
     display:flex;
     background-color: yellow;

@@ -57,3 +57,22 @@ form span{
 .contact-home span{
     color: orangered;
 }
+
+.cv-label{
+    display: flex;
+    color:orangered;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-left:450px;
+    text-align: center;
+    margin-bottom:10px;
+    position:absolute;
+    margin-top:-40px;
+    font-weight: 600;
+}
+
+.cv-label:hover{
+    transform: scale(1.2);
+}
+
+
